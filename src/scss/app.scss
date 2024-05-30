@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jet Brains Mono", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-and-drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  border: 3px dotted #b8b8b8;
+  border-radius: 15px;
+  background-color: #f3f3f3;
+
+  &.active {
+    border-color: cornflowerblue;
+    background-color: #dae2ff;
+  }
+}
