@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .drag-and-drop {
@@ -25,4 +26,19 @@ body {
 .drag-and-drop.active {
   border-color: cornflowerblue;
   background-color: #dae2ff;
+}
+
+.images-list {
+  display: flex;
+  gap: 10px;
+  width: 500px;
+}
+
+.images-list-picture {
+  display: block;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin: 10px 0;
 }/*# sourceMappingURL=app.css.map */

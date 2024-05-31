@@ -11,6 +11,9 @@
   <div class="drag-and-drop">
     <h3 class="drag-and-drop-title">Перетащите файл для загрузки</h3>
   </div>
+
+  <div class="images-list">
+  </div>
   
   <script src="src/js/app.js"></script>
 </body>
