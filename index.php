@@ -14,6 +14,8 @@
 
   <div class="images-list">
   </div>
+
+  <button class="upload-btn" disabled onclick="uploadImages()">Upload images</button>
   
   <script src="src/js/app.js"></script>
 </body>
